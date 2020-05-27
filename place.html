@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Travelin</title>
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-place">
+	<div class="contents">
+		<!-- サイドバー -->
+		<aside class="sidebar">
+			<h1 class="title"><a href="./index.html">Travelin</a></h1>
+		<div class="logo">
+			<img src="./img/logo.png" alt="logo">
+		</div>
+		<nav class="nav">
+				<a href="./place.html?id=1" class="is-active">Peru</a>
+				<a href="./place.html?id=2">Malaysia</a>
+				<a href="./place.html?id=3">USA</a>
+				<a href="./place.html?id=4">Iceland</a>
+				<a href="./place.html?id=5">indonesia</a>
+				<a href="./place.html?id=6">Japan</a>
+				<a href="./place.html?id=7">UK</a>
+				<a href="./place.html?id=8">Italia</a>
+		</nav>
+		<ul class="sns-link">
+			<li><a href="https://twitter.com/login?lang=ja" target="_blank"><img src="./img/icon/twitter.png" alt="twitter"></a></li>
+			<li><a href="https://www.instagram.com/?hl=ja" target="_blank"><img src="./img/icon/instagram.png" alt="insta"></a></li>
+			<li><a href="https://ja-jp.facebook.com/" target="_blank"><img src="./img/icon/facebook.png" alt="facebook"></a></li>
+		</ul>
+	</aside>
+	<!-- メインパート -->
+<main class="main">
+	<section class="place">
+		<div class="place-img">
+			<img src="" alt="place-image">
+		</div>
+		<div class="place-info">
+			<h2 class="place-title"><span data-place='name'></span></h2>
+			<dl class="place-item"> 
+				<dt>Etymology></dt>
+				<dd data-place='Etymology'></dd>
+				<dt>History</dt>
+				<dd data-place="History"></dd>
+				<dt>Geography</dt>
+				<dd data-place="Geography"></dd>
+			</dl>
+			<div class="btn-wrapper">
+				<a href="" target="_blank" class="btn arrow" data-place="Wikipedia">Wikipedia</a>
+				<a href="" target="_blank" class="btn arrow" data-place="travelsite">travel site</a>
+			</div>
+		</div>
+	</section>
+	<div class="loader-wrap">
+    <div class="loader">
+        <div class="circle-1 circle">
+            <div class="circle-2 circle">
+                <div class="circle-3 circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="./js/master.js"></script>
+	<script src="./js/main.js"></script>
+
+</body>
+</html>
